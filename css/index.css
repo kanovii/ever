@@ -130,7 +130,8 @@
     margin-bottom: 20px;
     width: 190px;
     height: 3em;
-    font-family: 'Gamja Flower', cursive; 
+    /*font-family: 'Gamja Flower', cursive; */
+    font-family: 'Poor Story', cursive;
     color: rgba(26, 7, 36, 0.9);
    
 }
