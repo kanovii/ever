@@ -109,6 +109,8 @@
     height: 15px;
     margin-left: 20px;
     font-family: 'Righteous', cursive;
+    color: rgba(70, 23, 97, 0.5);
+
 }
 
 .line {
@@ -125,7 +127,9 @@
     margin-bottom: 20px;
     width: 100%;
     height: 3em;
-    font-family: 'Gamja Flower', cursive;    
+    font-family: 'Gamja Flower', cursive; 
+    color: rgba(26, 7, 36, 0.9);
+   
 }
 
 @media ( min-width: 768px ) {
