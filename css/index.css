@@ -43,7 +43,7 @@
 
 
 .image {
-    width: 220px;
+    width: 200px;
     height: 300px;
     display: flex;
     align-items: center;
@@ -59,7 +59,7 @@
 }
 @media ( min-width: 768px ) {
     .image{
-        width: 450px;
+        width: 400px;
         height: 500px;
     }
 
@@ -68,16 +68,15 @@
 
 .bg_img {
   
-    width: 200px;
+    width: 220px;
     height: 200px;
-    border-radius: 5px;
     background-size: cover;
     background-position: center;
     
 }
 @media ( min-width: 768px ) {
     .bg_img{
-        width: 400px;
+        width: 420px;
         height: 400px;
         margin-top: 20px;
     }
@@ -116,7 +115,7 @@
     margin-top: 10px;
     width: 200px;
     height: 1px;
-    background-color: rgb(50, 48, 53);
+    background-color: rgba(70, 23, 97, 0.2);
     margin-bottom: 5px;
 }
 
@@ -134,7 +133,6 @@
         margin-top: 10px;
         width: 400px;
         height: 1px;
-        background-color: rgb(50, 48, 53);
     }
     
     .image_text {
