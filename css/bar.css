@@ -42,13 +42,13 @@
 }
 #ins_img:hover{
 
-    box-shadow: 1px 1px 5px 2px rgba(121, 51, 161, 0.9);
+    box-shadow: 1px 1px 5px 2px rgba(161, 51, 115, 0.9);
 }
 
 #ins_img2 {
     height: 70px;
     width: 70px;
-    background-image: url(./../img/ins2.PNG) ;
+    background-image: url(./../img/ins2_2.PNG) ;
     background-size: cover;
     border-radius: 35px;
     box-shadow: 1px 1px 5px 2px rgba(121, 51, 161, 0.2);
@@ -58,7 +58,7 @@
 }
 #ins_img2:hover{
 
-    box-shadow: 1px 1px 5px 2px rgba(121, 51, 161, 0.9);
+    box-shadow: 1px 1px 5px 2px rgba(161, 51, 115, 0.9);
 }
 
 

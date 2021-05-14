@@ -1,7 +1,11 @@
 @import "reset.css";
 @import "bar.css";
 @import "splash.css";
+@import "neviga.css";
 
+body {
+    position: relative;
+}
 
 .header {
     width: 100%;
@@ -106,6 +110,10 @@
 }
 #bg_img5 {
     background-image: url(./../img/5.jpg);
+
+}
+#bg_img6 {
+    background-image: url(./../img/6.jpg);
 
 }
 

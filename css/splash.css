@@ -19,7 +19,9 @@
     z-index: 99;
     top: 0;
     animation: splash_screen 0.5s ease-in-out forwards;
-    animation-delay: 0.7s;
+    animation-delay: 1s;
+    flex-direction: column;
+    
 }
 
 @keyframes splashText {
@@ -28,7 +30,7 @@
 
 
     }
-    60% {
+    50% {
         filter: blur(30px);
     }
     100% {
@@ -39,8 +41,29 @@
 .splash_text {
     font-size: 100px;
     font-family: 'Indie Flower', cursive;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     animation: splashText 0.5s ease-in-out forwards;
-    animation-delay: 0.7s;
+    animation-delay: 1s;
+}
+
+@keyframes xRotate {
+    0% {
+        transform: rotate(0);
+
+    }
+    80% {
+        transform: rotate(360deg);
+        filter: blur(0);
+
+
+    }
+    100% {
+        filter: blur(30px);
+    }
+}
+
+#splash_text_x {
+
+    animation: ease-in-out 1s xRotate forwards;
 }
 

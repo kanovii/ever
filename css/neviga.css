@@ -1,0 +1,41 @@
+.neviga {
+    display: flex;
+    width: 100vh;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.neviga_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: 'Indie Flower', cursive;
+    margin: 50px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    animation: infinite 2s nevigaAni ease-in-out ;
+}
+
+@keyframes nevigaAni {
+    0% {
+        color: black;
+    }
+
+    33% {
+        color: rgba(161, 51, 115, 0.9);
+
+    }
+
+    66% {
+        color: rgb(255, 187, 0);
+    }
+
+    100% {
+        color: black;
+
+    }
+
+}
