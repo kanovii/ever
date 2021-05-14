@@ -43,6 +43,7 @@
 #ins_img:hover{
 
     box-shadow: 1px 1px 5px 2px rgba(161, 51, 115, 0.9);
+    transform: scale(1.1);
 }
 
 #ins_img2 {
@@ -59,6 +60,8 @@
 #ins_img2:hover{
 
     box-shadow: 1px 1px 5px 2px rgba(161, 51, 115, 0.9);
+    transform: scale(1.1);
+
 }
 
 
