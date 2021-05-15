@@ -12,6 +12,8 @@
         document.getElementById('bg_img4').addEventListener('click', imgClk);
         document.getElementById('bg_img5').addEventListener('click', imgClk);
         document.getElementById('bg_img6').addEventListener('click', imgClk);
+        document.getElementById('bg_img7').addEventListener('click', imgClk);
+
 
         value = false;
         } else {
@@ -21,6 +23,8 @@
             document.getElementById('bg_img4').removeEventListener('click', arguments.callee);
             document.getElementById('bg_img5').removeEventListener('click', arguments.callee);
             document.getElementById('bg_img6').removeEventListener('click', arguments.callee);
+            document.getElementById('bg_img7').removeEventListener('click', arguments.callee);
+
 
     
     }
