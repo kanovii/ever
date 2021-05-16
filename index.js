@@ -47,11 +47,15 @@ function imgClk() {
         valuee--;
 
     }else {
-        
+        if(matchMedia('screen and (min-width: 768px)').matches){
+            this.style.width = '520px';
+            this.style.height = '400px';
+        }
+        else{
+            this.style.width = '320px';
+            this.style.height = this.height;
+        }
         this.style.backgroundSize = 'cover';   
-
-        this.style.width = '320px';
-        this.style.height = this.height;
         this.style.top = '0px'; 
         this.style.position = 'relative';
         this.style.zIndex = this.zIndex;
