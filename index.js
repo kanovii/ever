@@ -58,7 +58,7 @@ function imgClk() {
         this.style.backgroundSize = 'cover';   
         this.style.top = '0px'; 
         this.style.position = 'relative';
-        this.style.zIndex = this.zIndex;
+        this.style.zIndex = "49";
         
 
 
