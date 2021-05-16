@@ -1,4 +1,4 @@
-/*
+
 
 function imgClk() {
 
@@ -23,7 +23,7 @@ function imgClk() {
         else{
             this.style.width = '320px';
             this.style.height = this.height;
-        }
+        
         this.style.backgroundSize = 'cover';   
         this.style.top = '0px'; 
         this.style.position = 'relative';
@@ -52,4 +52,3 @@ document.getElementById('bg_img4').addEventListener('click', imgClk);
 document.getElementById('bg_img5').addEventListener('click', imgClk);
 document.getElementById('bg_img6').addEventListener('click', imgClk);
 document.getElementById('bg_img7').addEventListener('click', imgClk);
-*/
