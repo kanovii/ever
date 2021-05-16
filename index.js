@@ -15,7 +15,7 @@ function imgClk() {
         valuee--;
 
     }else {
-        if(matchMedia('screen and (min-width: 768px)').matches){
+        if(matchMedia("screen and (min-width: 768px)").matches){
             this.style.width = '520px';
             this.style.height = '400px';
         }
