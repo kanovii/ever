@@ -39,7 +39,7 @@ function imgClk() {
         this.style.backgroundPosition = 'center';
         this.style.backgroundSize = 'contain';
         this.style.backgroundRepeat = 'no-repeat';
-        this.style.top = '-150px'    
+        this.style.top = '-150px';    
         /*
         x.style.visibility = 'visible '; 
         x.style.position = 'absolute';  
