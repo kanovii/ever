@@ -46,6 +46,8 @@ document.getElementById('bg_img4').addEventListener('click', imgClk);
 document.getElementById('bg_img5').addEventListener('click', imgClk);
 document.getElementById('bg_img6').addEventListener('click', imgClk);
 document.getElementById('bg_img7').addEventListener('click', imgClk);
+document.getElementById('bg_img8').addEventListener('click', imgClk);
+
 
 
 var valuee = 1;
