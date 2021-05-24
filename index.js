@@ -49,6 +49,8 @@ document.getElementById('bg_img7').addEventListener('click', imgClk);
 document.getElementById('bg_img8').addEventListener('click', imgClk);
 document.getElementById('bg_img9').addEventListener('click', imgClk);
 document.getElementById('bg_img10').addEventListener('click', imgClk);
+document.getElementById('bg_img11').addEventListener('click', imgClk);
+
 
 
 
