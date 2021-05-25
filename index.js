@@ -4,11 +4,15 @@ function imgClk() {
 
     if(valuee == 1){
         if(matchMedia("screen and (min-width: 768px)").matches){
-            this.style.width = '100vw';
-            this.style.height = '100vh';
+            this.style.width = '760px';
+            this.style.height = '700px';
+            this.style.top = '-140px';    
+
         }else{
-            this.style.width = '100vw';
-            this.style.height = '100vh';
+            this.style.width = '90vw';
+            this.style.height = '60vh';
+            this.style.top = '0px';    
+
         }
    
         this.style.zIndex = '50';
@@ -16,7 +20,6 @@ function imgClk() {
         this.style.backgroundPosition = 'center';
         this.style.backgroundSize = 'cover';
         this.style.backgroundRepeat = 'no-repeat';
-        this.style.top = '-150px';    
         
         valuee--;
 
