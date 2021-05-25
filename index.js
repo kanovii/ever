@@ -3,12 +3,18 @@
 function imgClk() {
 
     if(valuee == 1){
-        this.style.width = '100vw';
-        this.style.height = '100vh';
+        if(matchMedia("screen and (min-width: 768px)").matches){
+            this.style.width = '100vw';
+            this.style.height = '100vh';
+        }else{
+            this.style.width = '100vw';
+            this.style.height = '100vh';
+        }
+   
         this.style.zIndex = '50';
         this.style.position = 'absolute';
         this.style.backgroundPosition = 'center';
-        this.style.backgroundSize = 'contain';
+        this.style.backgroundSize = 'cover';
         this.style.backgroundRepeat = 'no-repeat';
         this.style.top = '-150px';    
         
@@ -19,8 +25,7 @@ function imgClk() {
         if(matchMedia("screen and (min-width: 768px)").matches){
             this.style.width = '520px';
             this.style.height = '400px';
-        }
-        else{
+        }else{
             this.style.width = '320px';
             this.style.height = this.height;
         }
