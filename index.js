@@ -20,6 +20,7 @@ function imgClk() {
         this.style.backgroundPosition = 'center';
         this.style.backgroundSize = 'cover';
         this.style.backgroundRepeat = 'no-repeat';
+        this.style.boxShadow = '1px 1px 5px 2px rgba(70, 23, 97, 0.3)';
         
         valuee--;
 
@@ -41,6 +42,9 @@ function imgClk() {
 
         this.style.backgroundPosition = 'center';
         this.style.backgroundRepeat = this.backgroundRepeat;
+
+        this.style.boxShadow = 'unset';
+
 
         valuee = 1;
         
