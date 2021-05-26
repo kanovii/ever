@@ -62,10 +62,7 @@ document.getElementById('bg_img8').addEventListener('click', imgClk);
 document.getElementById('bg_img9').addEventListener('click', imgClk);
 document.getElementById('bg_img10').addEventListener('click', imgClk);
 document.getElementById('bg_img11').addEventListener('click', imgClk);
-
-
-
-
+document.getElementById('bg_img12').addEventListener('click', imgClk);
 
 var valuee = 1;
 
