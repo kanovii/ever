@@ -65,5 +65,7 @@
 #splash_text_x {
 
     animation: ease-in-out 1s xRotate forwards;
+    font-family: 'Righteous', cursive;
+
 }
 

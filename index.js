@@ -6,7 +6,7 @@ function imgClk() {
         if(matchMedia("screen and (min-width: 768px)").matches){
             this.style.width = '760px';
             this.style.height = '700px';
-            this.style.top = '-140px';    
+            this.style.top = '-140px';
 
         }else{
             this.style.width = '90vw';
