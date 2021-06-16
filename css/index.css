@@ -2,7 +2,7 @@
 @import "bar.css";
 @import "splash.css";
 @import "neviga.css";
-@import "bgColor.css";
+@import "bg_color.css";
 
 body {
     position: relative;
@@ -22,6 +22,7 @@ body {
     font-size: 40px;
     box-shadow: 1px 1px 5px 2px rgba(70, 23, 97, 0.1);
     z-index: 100;
+    transition: ease-in-out 0.5s;
 
     
 }
