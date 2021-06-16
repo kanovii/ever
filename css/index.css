@@ -3,6 +3,8 @@
 @import "splash.css";
 @import "neviga.css";
 @import "bg_color.css";
+@import "scroll.css";
+
 
 body {
     position: relative;
