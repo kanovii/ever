@@ -1,4 +1,5 @@
 const last = document.getElementById('last');
+const boxBox = document.getElementById('boxbox');
 
 last.addEventListener('click', changeLast);
 let y = 1;
@@ -8,7 +9,7 @@ function changeLast () {
         last.innerText = 'FIRST';
         y= 2;
     } else {
-        document.getElementById('boxbox').className = 'box';
+        boxBox.className = 'box';
         last.innerText = 'LAST';
 
         y = 1;
