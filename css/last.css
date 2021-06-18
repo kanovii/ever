@@ -1,16 +1,4 @@
-.btn_change_bg_color {
-    width: 100%;
-    height: 50px;
-
-    margin-top: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    margin-bottom: 110px;
-}
-
-#bg_btn {
+.last_or_late {
     border: none;
     background-color: white;
     width: 100px;
@@ -22,15 +10,17 @@
     color:rgba(121, 51, 161, 0.4) ;
     position: absolute;
     transition: ease-in-out 0.2s;
-
+    top: 70;
+    ds
+    
 }
 
-#bg_btn:hover {
+.last_or_late:hover {
     width:95px;
     height: 47px;
     font-size: 0.75em;
 } 
-#bg_btn:active {
+.last_or_late:active {
     width:95px;
     height: 47px;
     font-size: 0.75em;
