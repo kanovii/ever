@@ -11,10 +11,8 @@
     position: absolute;
     transition: ease-in-out 0.2s;
     top: 70;
-    ds
     
 }
-
 .last_or_late:hover {
     width:95px;
     height: 47px;
