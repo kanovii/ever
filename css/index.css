@@ -21,7 +21,8 @@ body {
     position: fixed;
     top: 0px;
     align-items: center;
-    font-family:'Times New Roman', Times, serif;
+    /*font-family:'Times New Roman', Times, serif; */
+    font-family: 'Ubuntu', sans-serif;
     font-size: 40px;
     box-shadow: 1px 1px 5px 2px rgba(70, 23, 97, 0.1);
     z-index: 100;
@@ -34,7 +35,9 @@ body {
     width: max-content;
     height: max-content;
     color: black;
-    font-family: 'Indie Flower', cursive;
+    /*font-family: 'Indie Flower', cursive; */
+    font-family: 'Ubuntu', sans-serif;
+
 }
 
 .box {

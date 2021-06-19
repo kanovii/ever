@@ -17,7 +17,9 @@
     }
 }
 .bar_text {
-    font-family: 'Indie Flower', cursive;
+    /*font-family: 'Indie Flower', cursive; */
+    font-family: 'Ubuntu', sans-serif;
+
     font-size: 20px;
     position: absolute;
     top: 0;
