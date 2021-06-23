@@ -7,14 +7,10 @@ function imgClk(event) {
             event.target.style.width = '760px';
             event.target.style.height = '700px';
             event.target.style.top = '-140px';
-
-
-
         }else{
             event.target.style.width = '90vw';
             event.target.style.height = '60vh';
             event.target.style.top = '0';
-
         }
         event.target.style.zIndex = '50';
         event.target.style.position = 'absolute';
@@ -24,7 +20,6 @@ function imgClk(event) {
         event.target.style.boxShadow = '1px 1px 5px 2px rgba(70, 23, 97, 0.3)';
         
         valuee--;
-
     }else {
         
         if(matchMedia("screen and (min-width: 768px)").matches){
@@ -38,14 +33,9 @@ function imgClk(event) {
         event.target.style.top = '0';
         event.target.style.position = 'relative';
         event.target.style.zIndex = "49";
-        
-
-
         event.target.style.backgroundPosition = 'center';
         event.target.style.backgroundRepeat = this.backgroundRepeat;
-
         event.target.style.boxShadow = 'unset';
-
 
         valuee = 1;
         
