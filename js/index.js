@@ -17,8 +17,7 @@ function imgClk(event) {
         event.target.style.backgroundPosition = 'center';
         event.target.style.backgroundSize = 'cover';
         event.target.style.backgroundRepeat = 'no-repeat';
-        event.target.style.boxShadow = '1px 1px 5px 2px rgba(70, 23, 97, 0.3)';
-        
+        event.target.style.boxShadow = '1px 1px 5px 2px rgba(70, 23, 97, 0.3)';        
         valuee--;
     }else {
         
@@ -63,6 +62,7 @@ const bgbg = document.querySelectorAll('.bg_img');
 var valuee = 1;
 
 function setNum () {
+    
     for(let i = 0; i < bgbg.length; i++) {
         bgbg[i].addEventListener('click', imgClk);
 
